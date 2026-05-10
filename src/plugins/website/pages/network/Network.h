@@ -87,6 +87,13 @@ const char htmL_NET_SN[] PROGMEM =
   "<button type='submit'>" L_UPLOAD "</button></form>\n";
 #endif
 
+// Add Firmware Update Button
+const char html_update[] PROGMEM =
+"<br/><b>" L_FIRMWARE_UPDATE":</b><br/>"
+"<form action='/update'>"
+"<button type='submit' name='update' value='1'>" L_TO_UPDATE_PAGE "</button></form><br />\n";
+// ------------------------
+
 const char html_logout[] PROGMEM =
 "<br/>" L_NETWORK_CONFIG_SECURITY ":"
 "<br/><br/><form method='post' action='/net.htm'>"

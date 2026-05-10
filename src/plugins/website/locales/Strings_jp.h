@@ -526,3 +526,7 @@
 #define L_CE_MOUNT_IN_MOTION "架台が動作中"
 #define L_CE_GOTO_ERR_UNSPECIFIED "その他"
 #define L_CE_UNK "不明"
+
+//Add Original
+#define L_FIRMWARE_UPDATE "ファームウェアアップデート"
+#define L_TO_UPDATE_PAGE "アップデートページへ"
